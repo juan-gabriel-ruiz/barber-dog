@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Productos - Barber Dog</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="productos.css">
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="./imagenes/logobarberdog.png"></h1>
+
+                <!-- Botón hamburguesa -->
+        <div class="menu-toggle" id="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <ul class="productos">
+                <li>
+                    <h2>Cabello</h2>
+                    <img src="./imagenes/cabello.jpg">
+                    <p class="producto-descripcion">Con tijera o máquina, a gusto del cliente</p>
+                    <p class="producto-precio">$ 10.00</p>
+                </li>
+                <li>
+                    <h2>Barba</h2>
+                    <img src="imagenes/barba.jpg">
+                    <p class="producto-descripcion">Corte y diseño profesional de barba</p>
+                    <p class="producto-precio">$ 08.00</p>
+                </li>
+                <li>
+                    <h2>Cabello + Barba</h2>
+                    <img src="imagenes/cabello+barba.jpg">
+                    <p class="producto-descripcion">Paquete completo de cabello y barba</p>
+                    <p class="producto-precio">$ 15.00</p>
+                </li>
+            </ul>
+        </main>
+<!-- Botón para agendar turno -->
+<section style="text-align:center; margin: 40px 0;">
+  <h2>Agendá tu turno</h2>
+  <div 
+      class="calendly-inline-widget" 
+      data-url="https://calendly.com/juanruizpoket/turno-barberia" 
+      style="min-width:320px;height:700px;">
+  </div>
+  <script type="text/javascript" 
+          src="https://assets.calendly.com/assets/external/widget.js" async>
+  </script>
+</section>
+
+
+        <footer>
+            <img src="">
+            <p class="copyright">Desarrollado por Ruiz Juan Gabriel 2025</p>
+        </footer>
+
+
+        <script src="menu.js"></script>
+
+    </body>
+</html>

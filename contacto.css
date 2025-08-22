@@ -1,0 +1,22 @@
+form select, form input[type="radio"], form input[type="checkbox"] {
+    margin-bottom: 15px;
+}
+
+textarea.input-padron {
+    width: 70%;
+    padding: 10px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+}
+
+td, th {
+    text-align: center;
+}
